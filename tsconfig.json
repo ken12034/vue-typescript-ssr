@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "target": "es6",
+      "module": "es6",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "removeComments": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "baseUrl": "src",
+      "sourceMap": true,
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "importHelpers": true,
+      "pretty": true,
+      "allowJs": true,
+      "paths": {
+          "assets/*": [
+              "assets/*"
+          ],
+          "components/*": [
+              "components/*"
+          ],
+          "models/*": [
+              "models/*"
+          ],
+          "services/*": [
+              "services/*"
+          ],
+          "stores/*": [
+              "stores/*"
+          ],
+          "types/*": [
+              "types/*"
+          ],
+          "util/*": [
+              "util/*"
+          ],
+          "enums/*": [
+              "enums/*"
+          ]
+      },
+      "lib": [
+          "dom",
+          "es2017",
+          "es6",
+          "es5"
+      ]
+  },
+  "include": [
+      "./src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "dist"
+  ]
+
+}
